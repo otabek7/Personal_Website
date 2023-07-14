@@ -9,17 +9,18 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link href="./style.css" rel="stylesheet" />
   </head>
 
   <body>
     <!-- Title -->
-    <section id="product">
+    <section id="product" class="gradient-background">
       <div
-        class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary"
+        class="position-relative gradient-background overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary"
       >
-        <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <div class="col-md-6 p-lg-5 mx-auto m-5">
           <h1 class="display-3 fw-bold">Howdy! I'm Otabek.</h1>
-          <h3 class="fw-normal text-muted mb-3">a software developer.</h3>
+          <h3 class="fw-normal text-muted mb-5">a software developer.</h3>
         </div>
       </div>
     </section>
@@ -50,18 +51,30 @@
     </section>
 
     <!-- Projects -->
-    <section id="projects">
+    <section id="projects" class="blue">
       <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom">Projects.</h2>
+        <h2 class="pb-2 border-bottom border-dark">My Projects.</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="col d-flex align-items-start">
             <div
               class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
             >
               <!-- TODO Fix the SVG!!! -->
-              <!-- <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#toggles2"></use>
-              </svg> -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                fill="currentColor"
+                class="bi bi-shield-check"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"
+                />
+                <path
+                  d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+                />
+              </svg>
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Sec-Mage</h3>
@@ -85,9 +98,21 @@
             >
               <!-- TODO Fix the SVG!!! -->
 
-              <!-- <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#cpu-fill"></use>
-              </svg> -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                fill="currentColor"
+                class="bi bi-bus-front"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7Zm1-6c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9c1.876 0 3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44.303 44.303 0 0 0 8 4Zm0-1c-1.837 0-3.353.107-4.448.22a.5.5 0 1 1-.104-.994A44.304 44.304 0 0 1 8 2c1.876 0 3.426.109 4.552.226a.5.5 0 1 1-.104.994A43.306 43.306 0 0 0 8 3Z"
+                />
+                <path
+                  d="M15 8a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1V2.64c0-1.188-.845-2.232-2.064-2.372A43.61 43.61 0 0 0 8 0C5.9 0 4.208.136 3.064.268 1.845.408 1 1.452 1 2.64V4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v3.5c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2V8ZM8 1c2.056 0 3.71.134 4.822.261.676.078 1.178.66 1.178 1.379v8.86a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 11.5V2.64c0-.72.502-1.301 1.178-1.379A42.611 42.611 0 0 1 8 1Z"
+                />
+              </svg>
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Aggiebus.Ai</h3>
@@ -111,9 +136,18 @@
             >
               <!-- TODO Fix the SVG!!! -->
 
-              <!-- <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#tools"></use>
-              </svg> -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                fill="currentColor"
+                class="bi bi-file-earmark-person-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755z"
+                />
+              </svg>
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Personal Website</h3>
@@ -131,9 +165,9 @@
       </div>
     </section>
 
-    <!-- My Skills -->
-    <section id="skills">
-      <div class="px-4 py-5 my-5 text-center">
+    <!-- Contact -->
+    <section id="contact" class="gradient-background">
+      <div class="px-4 py-5 text-center">
         <!-- <img
           class="d-block mx-auto mb-4"
           src="/docs/5.3/assets/brand/bootstrap-logo.svg"
@@ -141,17 +175,12 @@
           width="72"
           height="57"
         /> -->
-        <h1 class="display-5 fw-bold text-body-emphasis">My Skills.</h1>
+        <h1 class="display-5 fw-bold text-body-emphasis">Contact Me.</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead">I am a junior @ Texas A&M University.</p>
-          <p class="lead">
-            Studying Computer Science & Electrical Engineering!
-          </p>
-          <p class="lead">
-            I have a passion for photography, fishing, working on cars, and
-            traveling.
-          </p>
-          <p class="lead">Did I mention I'm an adrenaline junkie?</p>
+          <p class="lead">Liked my profile? Let's get in touch!</p>
+          <p class="lead">LINK TO MY LINKEDIN</p>
+          <p class="lead">LINK TO MY GITHUB</p>
+          <p class="lead">MY EMAIL</p>
         </div>
       </div>
     </section>

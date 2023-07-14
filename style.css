@@ -1,0 +1,27 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F38181, #FCE38A, #EAFFD0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+.red{
+    background-color: #F38181;
+}
+
+.yellow{
+    background-color: #FCE38A;
+}
+
+.green{
+    background-color: #EAFFD0;
+}
+
+.blue{
+    background-color: #95E1D3;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
