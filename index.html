@@ -25,12 +25,12 @@
       <div class="top-container">
         <div class="title-text">
           <h1>Howdy! I am Otabek.</h1>
-          <h3>a software developer.</h3>
+          <h3>a web developer.</h3>
         </div>
       </div>
     </section>
 
-    <!-- TODO: Add a few emojis About Me -->
+    <!-- About Me -->
     <section id="about">
       <div class="px-4 py-5 mt-5 text-center">
         <!-- <img
@@ -42,15 +42,15 @@
         /> -->
         <h1 class="display-5 fw-bold text-body-emphasis">Who am I?</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead">I am a junior @ Texas A&M University.</p>
+          <p class="lead">I am a junior @ Texas A&M University.🤠</p>
           <p class="lead">
-            Studying Computer Science & Electrical Engineering!
+            Studying Computer Science & Electrical Engineering!🖥️
           </p>
           <p class="lead">
-            I have a passion for photography, fishing, working on cars, and
-            traveling.
+            I have a passion for photography, fishing, motorsports, and
+            traveling.📸
           </p>
-          <p class="lead">Did I mention I'm an adrenaline junkie?</p>
+          <p class="lead">Did I mention I'm an adrenaline junkie?🎢</p>
         </div>
       </div>
       <!-- TODO: CAROUSEL -->
@@ -112,10 +112,14 @@
       </div>
     </section>
 
-    <!-- TODO: Update the centering of Projects -->
+    <!-- TODO: Add one more project? -->
     <section id="projects" class="blue">
       <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom border-dark">My Projects.</h2>
+        <h1
+          class="display-5 fw-bold text-body-emphasis pb-2 border-bottom border-dark h1-centering"
+        >
+          My Projects.
+        </h1>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="col d-flex align-items-start">
             <div
@@ -229,34 +233,47 @@
 
     <!-- TODO: Update completely the way Extracurriculars looks-->
     <section id="clubs">
-      <div class="px-4 py-5 my-5 text-center">
-        <!-- <img
-          class="d-block mx-auto mb-4"
-          src="/docs/5.3/assets/brand/bootstrap-logo.svg"
-          alt=""
-          width="72"
-          height="57"
-        /> -->
+      <!-- <div class="px-4 py-5 my-5 text-center">
         <h1 class="display-5 fw-bold text-body-emphasis">Extracurriculars.</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead">Aggie Coding Club</p>
+        <div class="container-acc">
+          <div class="grid-1">
+            <p class="lead">Aggie Coding Club</p>
+          </div>
+          <div class="grid-2">
+            <p class="lead">TAMU Hackathon Competitions</p>
+            <img src="./images/acc.jpg"/>
+          </div>
+          <div class="grid-3">
+            <p class="lead">Aggie Code for a Change</p>
+          </div>
+          <div class="grid-4">
+            <p class="lead">Harmony College & Career Coach</p>
+          </div>
+        </div>
+      </div> -->
+      <h1 class="display-5 fw-bold text-body-emphasis">Extracurriculars.</h1>
+      <div class="container-acc">
+        <div class="grid">
+          <div class="lead">Aggie Coding Club</div>
+          <img src="./images/acc.jpg" />
+
+        </div>
+        <div class="grid">
           <p class="lead">TAMU Hackathon Competitions</p>
+          <img src="./images/acc.jpg" />
+        </div>
+        <div class="grid">
           <p class="lead">Aggie Code for a Change</p>
+        </div>
+        <div class="grid">
           <p class="lead">Harmony College & Career Coach</p>
         </div>
       </div>
     </section>
 
-    <!-- TODO: Increase size of links if possible Contact -->
+    <!-- Contact -->
     <section id="contact" class="gradient-background-footer">
       <div class="px-4 py-5 text-center">
-        <!-- <img
-          class="d-block mx-auto mb-4"
-          src="/docs/5.3/assets/brand/bootstrap-logo.svg"
-          alt=""
-          width="72"
-          height="57"
-        /> -->
         <h1 class="display-5 fw-bold text-body-emphasis">Contact Me.</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead">Liked my profile? Let's get in touch!</p>
@@ -272,7 +289,9 @@
               d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
             />
           </svg>
-          <a href="https://www.linkedin.com/in/mavlonovo">LinkedIn Profile</a>
+          <a href="https://www.linkedin.com/in/mavlonovo" class="bigger-href"
+            >LinkedIn Profile</a
+          >
           <br />
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -286,7 +305,9 @@
               d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
             />
           </svg>
-          <a href="https://github.com/otabek7">GitHub Profile</a>
+          <a href="https://github.com/otabek7" class="bigger-href"
+            >GitHub Profile</a
+          >
           <br />
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -303,7 +324,7 @@
               d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"
             />
           </svg>
-          <a href="mailto: mavlonovo@gmail.com">Email Me</a>
+          <a href="mailto: mavlonovo@gmail.com" class="bigger-href">Email Me</a>
         </div>
       </div>
     </section>
