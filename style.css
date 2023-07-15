@@ -10,7 +10,7 @@
   animation: gradient-animation 18s ease infinite;
 }
 .gradient-background-footer {
-  background: linear-gradient(300deg, #f38181, #fce38a, #eaffd0);
+  background: linear-gradient(100deg, #95e1d3, #fce38a, #eaffd0);
   background-size: 180% 180%;
   height: 350px;
   animation: gradient-animation 18s ease infinite;
