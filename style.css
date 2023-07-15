@@ -1,27 +1,54 @@
+.title-align {
+  margin: 0;
+  text-align: center;
+}
+
 .gradient-background {
-    background: linear-gradient(300deg, #F38181, #FCE38A, #EAFFD0);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-
-.red{
-    background-color: #F38181;
+  background: linear-gradient(300deg, #f38181, #fce38a, #eaffd0);
+  background-size: 180% 180%;
+  height: 700px;
+  animation: gradient-animation 18s ease infinite;
+}
+.gradient-background-footer {
+  background: linear-gradient(300deg, #f38181, #fce38a, #eaffd0);
+  background-size: 180% 180%;
+  height: 350px;
+  animation: gradient-animation 18s ease infinite;
 }
 
-.yellow{
-    background-color: #FCE38A;
+.red {
+  background-color: #f38181;
 }
 
-.green{
-    background-color: #EAFFD0;
+.yellow {
+  background-color: #fce38a;
 }
 
-.blue{
-    background-color: #95E1D3;
+.green {
+  background-color: #eaffd0;
+}
+
+.blue {
+  background-color: #95e1d3;
 }
 
 .icon-square {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 0.75rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.carousel-inner {
+  width: 640px;
+  height: 640px;
+  /* margin: auto; */
+}
+
+.top-container {
+  padding: 250px;
+}
+.title-text > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
