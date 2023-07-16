@@ -9,6 +9,14 @@
   height: 700px;
   animation: gradient 10s ease infinite;
 }
+
+.gradient-background-mid {
+  background: linear-gradient(45deg, #1B6B93, #4FC0D0, #A2FF86);
+  background-size: 180% 180%;
+  height: 850px;
+  animation: gradient 10s ease infinite;
+}
+
 .gradient-background-footer {
   background: linear-gradient(100deg, #A2FF86, #4FC0D0, #1B6B93);
   background-size: 180% 180%;
